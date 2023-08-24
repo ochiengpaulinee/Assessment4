@@ -13,7 +13,6 @@ class UserViewModel {
     var errorLiveData = MutableLiveData<String>()
 
     fun fetchUsers(){
-        val viewModelscope = null
         viewModelscope.launch{
             val response = userRepository.getUsers()
             if (response.isSuccessful){
