@@ -14,6 +14,7 @@ import com.pauline.assessment4.viewmodel.UserViewModel
 class MainActivity : AppCompatActivity() {
     val userViewModel:UserViewModel by viewModels()
     lateinit var binding: ActivityMainBinding
+    lateinit var userAdapter: UserAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)

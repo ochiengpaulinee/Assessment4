@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
 import com.pauline.assessment4.databinding.UserItemBinding
-import com.squareup.picasso.Picasso
 
 class UserAdapter(var userList: List<User>):RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
 
